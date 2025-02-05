@@ -3,7 +3,7 @@ import pickle
 import json
 import numpy as np
 
-model_path = r"C:\Users\gundu\OneDrive\Desktop\web-development\projects\House_price_prediction\banglore_home_prices_model.pickle"
+model_path = r"\House_price_prediction\banglore_home_prices_model.pickle"
 
 with open(model_path, "rb") as f:
     model = pickle.load(f)
